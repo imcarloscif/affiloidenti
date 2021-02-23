@@ -1,0 +1,18 @@
+@font-face {
+   font-family: letterecattive;
+   src: url(00_font/letterecattive.ttf);
+   /*font-weight: bold;*/
+}
+
+body{
+	background-color: black;
+    font-family: letterecattive;
+    color: white;
+	font-size: 30px !important;
+}
+
+
+
+#txt_insc{
+
+}
