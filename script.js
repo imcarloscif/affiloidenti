@@ -11,38 +11,45 @@ var br = document.createElement('br');
 
 var Quotation = [
 
-	"Affilo i denti per sbranare quel cuscino",
-	"Affilo i denti per rodere le corde delle reti che mi hanno avvolto",
-	"Affilo i denti perch2 accetto anche la cattiveria nel mio cuore stanco",
-	"Affilo i denti per staccare blocchi di ghiaccio e costruirmi, con essi, un'armatura gelida",
-	"Affilo i denti prima che li affilino gli altri predatori che vogliono la mia testa",
-	"Affilo i denti per ingerire braci e divampare",
-	"Affilo i denti per permettermi di piangere piangere piangere",
-	"Affilo i denti per aiutare i castori a tagliare gli alberi e farcene delle dighe che blocchino questa fottuta acqua che entra da tutte le parti",
-	"Affilo i denti con le pietre pi6 dure perch2 diventino resistenti o perch2 si spacchino",
-	"Affilo i denti per batterli forte quando fa freddo",
-	"Affilo i denti perch2 ho un buco sullo stomaco e pi6 mangio pi6 ho fame",
-	"Affilo i denti per provocare dolore ad amici e nemici",
-	"Affilo i denti per azzannare i nodi alla gola",
-	"Affilo i denti per attaccare i tuoi tendini",
-	"Affilo i denti taglienti come vetri",
-	"Affilo i denti cos1 forte da coprire l'ululato de lupi che mi circondano",
-	"Affilo i denti per non fingermi debole",
-	"Affilo i denti per masticare meglio i bocconi amari",
-	"Affilo i denti per digrignare così forte da spaccare i timpani. E forse alla fine mi daranno ascolto", 
-	"Affilo i denti per sgranocchiare il tuo ego perché il mio l'ho gi4 vomitato",
-	"Affilo i denti fino a vederli sanguinare ma almeno cos1 non sentir5 il bisogno di parlare",
-	"Affilo i denti perch2, quando cadrai nella tela del ragno, sar5  vorace e famelico",
-	"Affilo i denti per guardare sempre in faccia la mia vittima",
-	"Affilo i denti per mangiare merda perch2 fa bene anche quella",
-	"Affilo i denti per sbranare i cuori di chi ha lacerato il mio",
-	"Affilo i denti perch2 dicono che non mastichi abbastanza",
-	"Affilo i denti per ingoiare tutte le carte del burraco e non farne mai più castelli",
-	"Affilo i denti per rodervi il culo",
-	"Affilo i denti perch2 possano attraversarli rabbia e saliva",
-	"Affilo i denti alti come picchi rocciosi",
-	"Affilo i denti a V freddi come la vendetta ",
-	"Affilo i denti come coltelli da carne",
+	"e cosa facevano e non facevano i miei genitori prima che nascessi,",
+	"e altre stronzate alla David Copperfield,",
+	"ma a me non va di entrare nei dettagli,",
+	"se proprio volete la verità.",
+	"Primo,",
+	"è roba che m'annoia,",
+	"e secondo ai miei verrebbero un paio di ictus a testa,",
+	"se andassi in giro a raccontare i fatti loro.",
+	"Su certe cose sono permalosissimi,",
+	"specie mio padre.",
+	"Simpatici, per carità,",
+	"ma anche parecchio permalosi.",
+	"E poi non mi metto certo a farvi la mia stupida autobiografia",
+	"o non so cosa.",
+	"Vi racconterò giusto la roba da matti",
+	"che mi è capitata sotto Natale,",
+	"prima di ritrovarmi cosí a pezzi",
+	"che poi sono dovuto venire qui a stare un po tranquillo.",
+	"Ovvero quel che ho raccontato a D.B.,", 
+	"che però è mio fratello,",
+	"non so se mi spiego.",
+	"Lui sta a Hollywood,",
+	"quindi non lontanissimo da questo schifo di posto,",
+	"e infatti viene a trovarmi praticamente ogni week-end.",
+	"Dice che mi riaccompagna in macchina",
+	"quando il mese prossimo torno a casa,",
+	"forse.",
+	"Si è appena comprato una Jaguar.",
+	"Uno di quei gioiellini inglesi che fanno anche i trecento all'ora.",
+	"L'ha pagata una sberla",
+	"tipo quattromila dollari.",
+	"È sfondato di soldi,",
+    "adesso.",
+    "Prima no.",
+    "Prima,",
+    "quando stava a casa,",
+    "era solo uno scrittore normale.",
+    "Ha scritto un libro di racconti pazzesco,",
+    "Il pesce rosso segreto,",
 
 	];
 
@@ -51,7 +58,7 @@ var Quotation = [
 function aCaso(){
 
 
-			var which = Quotation[Math.round(Math.random(0)*32)];
+			var which = Quotation[Math.round(Math.random(0)*39)];
 			prt_txt = prt_txt + "<p>" + which + "</p>" ;
 			console.log(prt_txt)
 
@@ -67,8 +74,8 @@ function scrolling(){
     /*scrolldelay = setTimeout(pageScroll,1000);*/
 
 }
-window.setInterval("aCaso()",100);
-window.setInterval("scrolling()",100);
+window.setInterval("aCaso()",1000);
+window.setInterval("scrolling()",1000);
 
 
 
