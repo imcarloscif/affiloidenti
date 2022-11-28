@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
    font-family: helvetica;
    
@@ -17,4 +18,25 @@ body{
 
 #txt_insc{
 
+=======
+@font-face {
+   font-family: helvetica;
+   
+   /*font-weight: bold;*/
+}
+
+body{
+	background-color: whitesmoke;
+    font-family: helvetica;
+    color: blue;
+	font-size: 50px !important;
+}
+
+.incipit{
+    padding-top: 15%;
+}
+
+#txt_insc{
+
+>>>>>>> 39603c9ffb243d394ba08f6aa5da94ad6dadc440
 }
