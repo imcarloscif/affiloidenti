@@ -1,0 +1,20 @@
+@font-face {
+   font-family: helvetica;
+   
+   /*font-weight: bold;*/
+}
+
+body{
+	background-color: whitesmoke;
+    font-family: helvetica;
+    color: blue;
+	font-size: 50px !important;
+}
+
+.incipit{
+    padding-top: 15%;
+}
+
+#txt_insc{
+
+}
